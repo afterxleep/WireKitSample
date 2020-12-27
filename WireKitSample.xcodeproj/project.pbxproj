@@ -29,7 +29,6 @@
 		D68B2567257DD3000019B48A /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		D68B2571257DD5ED0019B48A /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		D68B2579257DD7070019B48A /* TodoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAPI.swift; sourceTree = "<group>"; };
-		D6B466AC25980D4400695194 /* WireKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WireKit; path = ../WireKit; sourceTree = "<group>"; };
 		D6B466AE25980F4000695194 /* TodoAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAddView.swift; sourceTree = "<group>"; };
 		D6C59FA5258C5D8700AAEDCF /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +50,6 @@
 			children = (
 				D68B2556257DD2550019B48A /* WireKitSample */,
 				D68B2555257DD2550019B48A /* Products */,
-				D6B466AC25980D4400695194 /* WireKit */,
 			);
 			sourceTree = "<group>";
 		};
@@ -372,8 +370,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:afterxleep/WireKit.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
