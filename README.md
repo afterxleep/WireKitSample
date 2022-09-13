@@ -1,5 +1,6 @@
-This project is Archived.  The sample application is now part of the [library documentation][https://github.com/afterxleep/WireKit/tree/main/docs/ExampleApp].
--
+### This project is Archived.  
+The sample application is now part of the [library documentation][https://github.com/afterxleep/WireKit/tree/main/docs/ExampleApp].
+
 
 # WireKit Sample App
 
